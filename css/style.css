@@ -1,0 +1,84 @@
+body{
+    background-color: #fff
+    /*#0485C7*/
+}
+#main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#main .container, #main .container-fluid{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 0px;
+}
+
+.box-intro{
+    background-color: #eeeeee;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.text-underline{
+    border-bottom: #d0d0d0 solid 1px;
+    margin-bottom: 20px;
+    /*overflow-y: scroll;*/
+}
+.box-line{
+    border: #d0d0d0 solid 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.media-font i{
+    /*	margin-left: 10px;*/
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text-underline p {
+    color: #808080;
+}
+
+
+/*Nav*/
+
+.navbar{
+    min-height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-default{
+    background-color: #0485C7;
+    border-radius: 0;
+    border-bottom: transparent solid 5px;
+    border-top-color: transparent;
+    box-shadow: 0 2px 4px #999;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #333;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #999;
+}
+
+.navbar-right{
+	padding-right: 50px;
+}
+
+.logo{
+    margin-top: -20px;
+    margin-left: 8px;
+}
+
+a.navbar-brand{
+    color: #fff !important;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.navbar-form *{
+    border-radius: 0;
+}
